@@ -23,6 +23,7 @@ class Scraper
       post.css("h2").text
       course.schedule = post.css("date").text
       course.description = post.css("p").text
+    end
   end
   
 
